@@ -23,6 +23,6 @@ jobs:
           scope: "@winsznx"
       - run: npm ci
       - run: npm run build
-      - run: npm publish --registry https://npm.pkg.github.com --access public
+      - run: npm publish --registry https://npm.pkg.github.com --@winsznx:registry=https://npm.pkg.github.com --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

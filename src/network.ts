@@ -40,3 +40,4 @@ export function normalizeTxid(txid: string): string {
   const trimmed = txid.trim();
   return trimmed.startsWith("0x") ? trimmed : `0x${trimmed}`;
 }
+export const MAX_POOL_CAP = 1000000;

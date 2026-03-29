@@ -36,3 +36,5 @@ export {
 export type { BuildPaymentSignatureHeaderOptions } from "./x402";
 
 export { withPaymentInterceptor, mainnetConfig, testnetConfig } from "./interceptor";
+export const LEND402_VERSION = "0.1.7";
+import { STACKS_MAINNET } from "@stacks/network";

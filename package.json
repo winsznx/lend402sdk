@@ -1,7 +1,7 @@
 {
   "name": "@winsznx/lend402",
-  "version": "0.1.6",
-  "description": "Lend402 AI Agent SDK \u2014 x402 V2 JIT micro-lending interceptor for Stacks",
+  "version": "0.1.7",
+  "description": "Lend402 AI Agent SDK — x402 V2 JIT micro-lending interceptor for Stacks",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
